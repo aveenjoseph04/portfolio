@@ -245,10 +245,12 @@ a:focus {
 .hero {
     position: relative;
     width: 100%;
+    min-height: 100vh;
     margin-bottom: 45px;
-    padding: 120px 0 0 0;
+    padding: 120px 0 60px 0;
     overflow: hidden;
-    background: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0)),url(../img/hero-bg.jpg);
+    background: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0)),
+                url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,6 +311,16 @@ a:focus {
 .hero .hero-text .typed-cursor {
     font-size: 35px;
     font-weight: 300;
+    color: #ffffff;
+}
+
+/* Home page description */
+.hero-description {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    max-width: 650px;
+    font-size: 17px;
+    line-height: 1.7;
     color: #ffffff;
 }
 
@@ -1552,7 +1564,7 @@ a:focus {
     padding:30px;
     box-shadow:0 8px 25px rgba(0,0,0,0.08);
     transition:.3s;
-    height:100%;
+    width:100%;
 }
 
 .internship-card:hover{
@@ -1596,6 +1608,25 @@ a:focus {
     color:#666;
     line-height:1.7;
 }
+.key-contributions {
+margin-top: 20px;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 700;
+color: #008000;
+}
+
+.internship-contributions {
+padding-left: 20px;
+margin-bottom: 0;
+}
+
+.internship-contributions li {
+margin-bottom: 10px;
+color: #666;
+line-height: 1.6;
+}
+
 
 /*==========================
       Highlights Section
